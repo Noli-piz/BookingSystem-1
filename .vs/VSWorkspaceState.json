@@ -3,10 +3,9 @@
     "",
     "\\BookingSystem",
     "\\BookingSystem\\bin",
-    "\\BookingSystem\\bin\\Debug",
     "\\BookingSystem\\obj",
     "\\BookingSystem\\Properties"
   ],
-  "SelectedNode": "\\BookingSystem\\obj\\Release",
+  "SelectedNode": "\\BookingSystem\\BookingSystem.csproj",
   "PreviewInSolutionExplorer": false
 }

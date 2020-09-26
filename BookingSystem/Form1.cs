@@ -54,7 +54,7 @@ namespace BookingSystem
 
             if (dt.Rows[0][0].ToString()=="1")
             {
-                MessageBox.Show("Username and Password is Correct!","info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Username and Password is Correct! gago","info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 if (cbUsertype.SelectedItem.Equals("Admin"))
                 {
