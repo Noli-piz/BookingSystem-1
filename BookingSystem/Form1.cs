@@ -43,7 +43,7 @@ namespace BookingSystem
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-
+            
             string user = tbUsername.Text;
             string pass = tbPassword.Text;
             Database db = new Database();
@@ -54,7 +54,7 @@ namespace BookingSystem
 
             if (dt.Rows[0][0].ToString()=="1")
             {
-                MessageBox.Show("Username and Password is Correct! gago","info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Username and Password is Correct! Gumana ka1","info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 if (cbUsertype.SelectedItem.Equals("Admin"))
                 {
